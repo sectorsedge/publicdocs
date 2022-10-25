@@ -6,8 +6,8 @@ hero:
   text: Docs
   tagline: This website contains useful information on how to guides, support, fixes and map making.
   image:
-    dark: public/sebeta.png
-    light: public/sebetadark.png
+    dark: sebeta.png
+    light: sebetadark.png
     alt: Sector's Edge
   actions:
     - theme: brand
