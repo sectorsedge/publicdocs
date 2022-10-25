@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@stuyk/vitepress-sidebar-builder": "^1.0.2",
+    "markdown-it": "^13.0.1",
+    "vitepress": "1.0.0-alpha.19",
+    "vitepress-plugin-search": "1.0.4-alpha.11",
+    "vue": "^3.2.40"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress build serve"
+  },
+  "engines": {
+    "node": ">= 16"
+  }
+}
