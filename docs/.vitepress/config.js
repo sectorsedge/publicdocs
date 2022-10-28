@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Sector's Edge Docs",
   descriptions: "Public information about Sector's Edge",
   lastUpdated: true, // use git commit to get page last updated time
-  cleanUrls: "with-subfolders",
+  cleanUrls: "disabled", // Disabled, this is now done via Netlify settings "Pretty URLS" due to a bug within trailing slashes on SPA
 
   themeConfig: {
     outline: "deep",
