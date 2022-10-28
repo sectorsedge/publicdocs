@@ -31,7 +31,7 @@ export default defineConfig({
       },
       {
         text: "Map Making",
-        items: [{ text: 'Getting Started', link: '/mapmaking/index.md' }, { text: 'MagicaVoxel Usage', link: '/mapmaking/magicavoxel.md' }, { text: 'Community Guides', link: '/mapmaking/community.md' },  { text: 'Resources', link: '/mapmaking/resources.md' }],
+        items: [{ text: 'Getting Started', link: '/mapmaking/index.md' }, { text: 'MagicaVoxel Usage', link: '/mapmaking/magicavoxel.md' }, { text: 'Community Guides', link: '/mapmaking/community.md' }, { text: 'External Resources', link: '/mapmaking/resources.md' }],
       },
     ],
     footer: {
