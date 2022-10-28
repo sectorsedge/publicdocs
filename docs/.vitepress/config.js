@@ -1,4 +1,4 @@
-import {defineConfig} from "vitepress";
+import { defineConfig } from "vitepress";
 import SidebarBuilder from "@stuyk/vitepress-sidebar-builder";
 
 export default defineConfig({
@@ -18,12 +18,20 @@ export default defineConfig({
       {
         text: "Introduction",
         link: "/intro/",
+      },
+      {
+        text: "Map Making",
+        link: "/mapmaking/",
       }
     ],
     sidebar: [
       {
         text: "Getting Started",
         items: SidebarBuilder.get.filesAndOrder("./docs/intro", ["_partial"]),
+      },
+      {
+        text: "Map Making",
+        items: [{ text: 'Getting Started', link: '/mapmaking/index.md' }, { text: 'MagicaVoxel Usage', link: '/mapmaking/magicavoxel.md' }, { text: 'Community Guides', link: '/mapmaking/community.md' },  { text: 'Resources', link: '/mapmaking/resources.md' }],
       },
     ],
     footer: {
@@ -33,5 +41,5 @@ export default defineConfig({
     lastUpdatedText: "Last updated",
   },
 
-  head: [["link", {rel: "icon", href: "/favicon.png"}]],
+  head: [["link", { rel: "icon", href: "/favicon.png" }]],
 });
