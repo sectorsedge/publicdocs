@@ -131,7 +131,3 @@ Save this into a file called Map_Template.json
 Using the instructions in the previous sections above please use these assets to create your first map within Sector's Edge
 
 Continue reading to learn more about map making
-
-## REFERENCE
-
-Todo - Add full JSON Schema here
