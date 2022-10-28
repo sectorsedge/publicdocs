@@ -6,7 +6,7 @@ title: "Community Guides"
 
 We share here guides that the community has created if you would like to to get involved and discuss Map Making with others, please join our [Discord Server](https://discord.gg/sJA3cs4DEV)
 
-## WorldPainter
+## WORLD PAINTER
 
 What you will need:
 - World Painter - https://www.worldpainter.net/
@@ -55,3 +55,7 @@ float map( vec3 v ) {
 ```
 
 Guide created by `Vhauss`
+
+## MAP MAKING
+
+`Caspooky` and `Realkill` have created a guide for [Map Making](/MapMaking.pdf)
