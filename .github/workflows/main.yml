@@ -3,9 +3,6 @@ on: [push]
 jobs:
   publish:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      deployments: write
     name: Publish to Cloudflare Pages
     steps:
 
