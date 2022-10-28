@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Sector's Edge Docs",
   descriptions: "Public information about Sector's Edge",
   lastUpdated: true, // use git commit to get page last updated time
-  cleanUrls: "with-subfolders", // remove .html from url
+  cleanUrls: "with-subfolders",
 
   themeConfig: {
     outline: "deep",
