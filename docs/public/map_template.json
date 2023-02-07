@@ -1,0 +1,76 @@
+{
+	// Basic details
+	"Name": "Template",
+	"Description": "This is a template JSON file",
+
+	"MapSize": [ 256, 128, 768 ],
+	
+	// Textures
+	"BlockTextures":
+	[
+		{
+			"Index": 9,
+			"Name": "concrete",
+			"Strength": 0, // Invincible
+			"Size": [4, 4]
+		},
+		{
+			"Index": 10,
+			"Name": "concrete",
+			"HSL": [0, 0, -0.2], // Colour shift
+			"Size": [4, 4]
+		},
+		{
+			"Index": 11,
+			"Name": "panelcolour",
+			"HSL": [0.08, 0, -0.5], // Colour shift
+			"Size": [6, 6]
+		},
+		{
+			"Index": 12,
+			"Name": "girder",
+			"Strength": 0.25, // Take 75% less damage
+			"Size": [2, 2]
+		}
+	],
+
+
+	// Spawn areas
+	"TeamSpawns":
+	[
+		{
+			"Gamemode": "all",
+			"Type": "box",
+			"Team": 0,
+			"Min": [0, 0, 0],
+			"Max": [256, 128, 100]
+		},
+		{
+			"Gamemode": "all",
+			"Type": "box",
+			"Team": 1,
+			"Min": [0, 0, 668],
+			"Max": [256, 128, 768]
+		}
+	],
+
+	// Capture zones
+    "LinearZones":
+    [
+        {
+            "Type": "box",
+            "Min": [ 32, 0, 212 ],
+            "Max": [ 224, 60, 252 ]
+        },
+        {
+            "Type": "box",
+            "Min": [ 32, 0, 364 ],
+            "Max": [ 224, 60, 404 ]
+        },
+        {
+            "Type": "box",
+            "Min": [ 32, 0, 516 ],
+            "Max": [ 224, 60, 556 ]
+        }
+    ]
+}
